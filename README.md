@@ -11,12 +11,14 @@ This project implements a smart and automated solution for managing vehicle acce
 5. Streamlined Exit Process: The QR code is scanned at the exit to quickly verify vehicle details, making the process more efficient and secure.
 
 # Technologies Used
-1. YOLOv5s: For vehicle detection and license plate identification.
-2. ResNet50: For vehicle color recognition.
-3. Tesseract OCR: For reading license plate characters.
-4. Streamlit: To create a user-friendly QR code scanning interface.
-5. QR Code Generation: For creating a secure, digital pass.
-6. Thermal Printer: To print the QR codes for the drivers.
+1. NVIDIA Jetson Nano - For model deploymenr
+2. USB Camera - For live video capture
+3. YOLOv5s: For vehicle detection and license plate identification.
+4. ResNet50: For vehicle color recognition.
+5. Tesseract OCR: For reading license plate characters.
+6. Streamlit: To create a user-friendly QR code scanning interface.
+7. QR Code Generation: For creating a secure, digital pass.
+8. Thermal Printer: To print the QR codes for the drivers.
 
 # How to Use
 Image Inference:
